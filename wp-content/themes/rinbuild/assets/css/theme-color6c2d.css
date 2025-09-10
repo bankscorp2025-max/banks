@@ -185,8 +185,8 @@
 .single-testimonial-style1.style3 .client-info .icon-box span:before,
 .main-slider .content .btns-box .btn-one,
 .main-slider .content .btns-box .btn-two:hover{
-    background: #fd5d14;
-    background-color: #fd5d14;
+    background: #ffffff;
+    background-color: #191788;
 }
 
 
@@ -224,7 +224,7 @@
 .share-products-socials ul li a:hover i,
 .main-slider .content .btns-box .btn-one,
 .main-slider .content .btns-box .btn-two:hover{
-    border-color: #fd5d14;    
+    border-color: #ffffff;    
 }
 
 
@@ -281,10 +281,10 @@
     background-color: rgba(253, 93, 19, 0.80);
 }
 .main-slider .content h3:before{
-    background: rgba(253, 93, 19, 0.40);
+    background-color: rgba(17, 55, 160, 0.7)!important;
 }
 .single-portfolio-slider .slider-pager .thumb-box li a .img-holder:before{
-    background-color: rgba(253, 93, 19, 0.50);
+    background-color: rgba(17, 55, 160, 0.7)!important;
 }
 .single-product-image-holder .slider-pager .thumb-box li .img-holder:before{
     background-color: rgba(253, 93, 19, 0.70);

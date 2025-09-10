@@ -100,13 +100,13 @@
     background: #1137a0;
 }
 .main-slider .content h3:before{
-    background: rgba(253, 93, 19, 0.40);
+    background-color: rgb(255, 255, 255)!important;
 }
 .single-portfolio-style1 .img-holder .title-holder:before {
-    background-color: #1137a0;
+    background-color: #ffffff;
 }
 .testimonial-style1-title-box:before {
-    background: #1137a0;
+    background: #ffffff;
 }
 .main-menu.style2 .navigation>li>a span.homeicon {
     background: #1137a0;
