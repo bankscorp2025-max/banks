@@ -1,0 +1,134 @@
+/*
+Theme Name: Rinbuild
+Theme URI: http://z.commonsupport.com/rinbuild/
+Author: template_path
+Author URI: https://themeforest.net/user/template_path/portfolio
+Description: This is Rinbuild Business Solution, Construction and Building WordPress Theme.
+Version: 3.0.0
+License: copyright commercial
+License URI: https://themeforest.net/user/template_path/portfolio
+Text Domain: Rinbuild
+Tags: one-column, two-columns, right-sidebar, custom-header, custom-menu, editor-style, featured-images, rtl-language-support, sticky-post, translation-ready, microformats
+Tested up to: 6.3
+Requires PHP: 7.0
+
+*/
+
+.wp-caption {
+	margin-bottom: 2px;
+}
+
+.wp-caption-text {
+	margin-bottom: 5px;
+}
+
+.screen-reader-text {
+	margin-bottom: 12px;
+}
+
+.gallery-caption {
+	margin-bottom: 2px;
+}
+
+.bypostauthor {
+	margin-bottom: 2px;
+}
+
+.alignleft {
+	float: left;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	max-width: 100%;
+}
+
+.alignright {
+	float: right !important;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	max-width: 100%;
+}
+
+.aligncenter {
+	display: block;
+	margin: 0 auto 20px;
+}
+
+.col-md-4 .funfact-meta > i {
+	right: 27px;
+}
+
+.mycustom-pricing {
+	background-color: #090909 !important;
+}
+
+.on-hover {
+	display: none;
+	animation: fadeOut 0.5s;
+}
+
+.hver:hover .on-hover {
+	display: block;
+	animation: fadeIn 0.5s;
+}
+
+.side_right{order:2!important}
+
+.main-menu .navigation>li>a {
+    padding-right: 35px!important;
+}
+.main-menu .navigation>li>ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 270px;
+    padding: 0 0;
+    opacity: 0;
+    height: auto !important;
+    visibility: hidden;
+    border-radius: 0;
+    -moz-transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    -o-transform: translateY(30px);
+    transform: translateY(30px);
+    transition: all .1s ease;
+    z-index: 100;
+}
+
+.main-menu .navigation>li>ul>li>ul {
+    position: absolute;
+    top: 0;
+    left: 100%!important;
+    width: 250px;
+    padding: 0;
+    display: none;
+    background: #fff;
+    height: auto !important;
+    border-radius: 0;
+    -webkit-box-shadow: 2px 2px 5px 1px rgb(0 0 0 / 5%), -2px 0 5px 1px rgb(0 0 0 / 5%);
+    -ms-box-shadow: 2px 2px 5px 1px rgba(0,0,0,.05),-2px 0 5px 1px rgba(0,0,0,.05);
+    -o-box-shadow: 2px 2px 5px 1px rgba(0,0,0,.05),-2px 0 5px 1px rgba(0,0,0,.05);
+    -moz-box-shadow: 2px 2px 5px 1px rgba(0,0,0,.05),-2px 0 5px 1px rgba(0,0,0,.05);
+    box-shadow: 2px 2px 5px 1px rgb(0 0 0 / 5%), -2px 0 5px 1px rgb(0 0 0 / 5%);
+    -moz-transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    -o-transform: translateY(30px);
+    transform: translateY(30px);
+    transition: all .1s ease;
+    z-index: 100;
+}
+.main-menu .navigation>li>ul>li.newhome:before {
+    content: 'New*';
+    z-index: 111;
+    font-weight: 800;
+    font-size: 12px;
+    color: #ffffff;
+    left: 180px;
+    position: absolute;
+    top: 0px;
+    background: #443885;
+    border-radius: 2px;
+    padding: 0px 8px;
+    top: 8px;
+}
