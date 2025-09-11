@@ -10615,7 +10615,7 @@ nav ul > li > ul > li > ul {
 .single-service-style1:hover .icon-holder:before {
     position: absolute;
     content: '';
-    background-image: -webkit-linear-gradient( 45deg, #fefeff00 0%, #ff45552b 100%);
+    background-image: -webkit-linear-gradient( 45deg, #fefeff00 0%, #191788 100%);
     width: 100px;
     height: 100px;
     top: -3px;
@@ -10624,6 +10624,7 @@ nav ul > li > ul > li > ul {
     z-index: 1;
     transition: all 500ms ease;
 }
+
 .service-style1-area .col-lg-4:hover .single-service-style1:before {
     position: absolute;
     content: "";

@@ -7,7 +7,6 @@
 .btn-one,
 .thm_clr1,
 .main-slider .content h2 span,
-.sec-title p,
 .twitter-feed-box span,
 .twitter-feed-box .bottom .comments a i,
 .single-service-style3 .overlay-content .title-holder p,
@@ -43,9 +42,7 @@
 .single-blog-post .text-holder .bottom .author-name a span:before,
 .single-blog-post .text-holder .bottom .read-more-button a,
 .single-portfolio-style1 .img-holder .title-holder p span:before,
-.single-testimonial-style1:before,
 .single-testimonial-style1 .client-info .icon-box span:before,
-.single-testimonial-style1 .client-info .title-box h3,
 .payment-tab .tab-btns li:hover i, 
 .payment-tab .tab-btns li.active-btn i,
 .product-tab-box .review-form .shop-page-title p b,
@@ -83,14 +80,14 @@
 
 /*========== Color ====================*/ 
 {
-	color:#ffffff!important;
+	color:#1137a0!important;
 }
 /* ------------------////End of Section////--------------*/
+.sec-title p,.single-testimonial-style1:before,.single-testimonial-style1 .client-info .title-box h3{
+ 
+    color: #ffffff;
 
-
-
-
-
+}
 
 
 /*==============================================
